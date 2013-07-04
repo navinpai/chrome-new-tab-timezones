@@ -13,6 +13,12 @@
             -webkit-user-select: none;
         }
 
+        .container {
+            min-width: 1075px;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
         .date-and-time {
             top: 20px;
             left: 20px;
@@ -57,14 +63,16 @@
     <link rel="shortcut icon" href="favicon.png" /> <!-- Match the favicon Chrome shows before loading the new tab -->
 </head>
 <body>
-    <div class="date-and-time">
-        <ul class="times">
-            <li><span class="time" data-utc-offset="-7">&nbsp;</span><span class="location"> in San Francisco</span></li>
-            <li><span class="time" data-utc-offset="-5">&nbsp;</span><span class="location"> in Chicago</span></li>
-            <li><span class="time" data-utc-offset="-4">&nbsp;</span><span class="location"> in New York</span></li>
-            <li><span class="time">&nbsp;</span><span class="location"> UTC</span></li>
-            <li><span class="time" data-utc-offset="+2">&nbsp;</span><span class="location"> in Berlin</span></li>
-        </ul>
+    <div class="container">
+        <div class="date-and-time">
+            <ul class="times">
+                <li><span class="time" data-utc-offset="-7">&nbsp;</span><span class="location"> in San Francisco</span></li>
+                <li><span class="time" data-utc-offset="-5">&nbsp;</span><span class="location"> in Chicago</span></li>
+                <li><span class="time" data-utc-offset="-4">&nbsp;</span><span class="location"> in New York</span></li>
+                <li><span class="time">&nbsp;</span><span class="location"> UTC</span></li>
+                <li><span class="time" data-utc-offset="+2">&nbsp;</span><span class="location"> in Berlin</span></li>
+            </ul>
+        </div>
     </div>
     <div class="original-new-tab">&nbsp;</div>
     <script src="app.js"></script>
