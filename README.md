@@ -1,4 +1,4 @@
-![A gif-in-action](https://f.cloud.github.com/assets/846194/373582/d36f33b4-a384-11e2-9cff-117cf68a5e0e.gif)
+![A gif-in-action](https://media.giphy.com/media/3ohze1ac2w79nnujOU/giphy.gif)
 
 ## Chrome New Tab Timezones
 
@@ -21,6 +21,6 @@ Change the city name and `data-utc-offset`, or add a new `<li>` with the same.
 
 ### Credit
 
-Based on [adamschwartz](https://github.com/adamschwartz)'s [chrome-new-tab](https://github.com/adamschwartz/chrome-new-tab) who based his newtab page on [tech-no-crat](https://github.com/tech-no-crat)'s [chrome-newtab-minimalism](https://github.com/tech-no-crat/chrome-newtab-minimalism).
+Based on [pearkes](https://github.com/pearkes)' [chrome-new-tab-timezones](https://github.com/pearkes/chrome-new-tab-timezones) who based his stuff on [adamschwartz](https://github.com/adamschwartz)'s [chrome-new-tab](https://github.com/adamschwartz/chrome-new-tab) who based his newtab page on [tech-no-crat](https://github.com/tech-no-crat)'s [chrome-newtab-minimalism](https://github.com/tech-no-crat/chrome-newtab-minimalism).
 
 *How deep does the credit go??!*
