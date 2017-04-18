@@ -7,7 +7,6 @@ function $(query) {
 
 function init() {
     updateTimes();
-    setupOriginalNewTabLinkAndDoubleClick();
 }
 
 function updateTimes() {
@@ -42,27 +41,6 @@ function timeFromUtcOffset(offset) {
     utc = date.getTime() + (date.getTimezoneOffset() * 60000);
 
     return new Date(utc + (3600000*offset));
-}
-
-function setupOriginalNewTabLinkAndDoubleClick() {
-    var $originalTabLink = $('.original-new-tab');
-
-    function openOriginalNewTab() {
-        chrome.tabs.update({
-            url:'chrome-internal://newtab/'
-        });
-    }
-
-    $originalTabLink.innerHTML = '&#9658;';
-
-    $originalTabLink.addEventListener('click', function(){
-        openOriginalNewTab();
-        return false;
-    });
-
-    document.addEventListener('dblclick', function(){
-        openOriginalNewTab();
-    });
 }
 
 init();
